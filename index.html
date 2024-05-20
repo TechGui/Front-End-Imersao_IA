@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Inteligência Artificial 2ª Edição</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/logo.png">
+
+</head>
+
+<body>
+    <div id="tela-carregamento">
+        <div class="animacao-carregamento">
+            <span class="texto-carregamento">Carregando...</span>
+            <div class="barra-carregamento"></div>
+        </div>
+    </div>
+
+    <header id="cabecalho">
+        <h1>Imersão Inteligência Artificial 2ª Edição</h1>
+    </header>
+
+    <div class="patch-notes">
+        <p>Owner: Guilherme da Rosa Silva</p>
+        <p>V. 1.0.0: <br></p>
+    </div>
+
+    <container class="texto-central">
+
+        <main id="principal-navegacao">
+            <div class="opcoes" id="opcoes-jogo">
+                <button id="jogar">Demo</button>
+                <button id="creditos">Créditos</button>
+                <button id="configuracoes">Configurações</button>
+                <button id="sair">Sair</button>
+            </div>
+
+            <div id="portfolio" class="portfolio escondido">
+                <div class="portfolio-container">
+                    <h2>Autor do Site</h2>
+                    <img id="proprietario" src="img/Guilherme.png" alt="Dono do Projeto">
+                    <h3>Guilherme da Rosa Silva</h3>
+                    <p>Olá! Meu nome é Guilherme e sou o autor deste site. Sou um entusiasta de Desenvolvimento Web e
+                        estou sempre em busca de novos conhecimentos e experiências na área. Apaixonado pela temática
+                        sci-fi e produção musical, desenvolvi este website como parte do curso de Imersão Inteligência
+                        Artificial oferecido pela Alura em parceria com o Google, a fins de estudo. Espero que você
+                        goste do conteúdo e aproveite a experiência!</p>
+                    <p>Música composta por: Guilherme Silva</p>
+                    <p><a style="color: rgb(199, 0, 0);" href="https://www.youtube.com/watch?v=IelgcWzohWA"
+                            target="_blank">Música</a>&nbsp;&nbsp;&nbsp;<a style="color: rgb(128, 93, 255);"
+                            href="https://github.com/TechGui" target="_blank">GitHub</a>&nbsp;&nbsp;&nbsp;<a
+                            href="https://www.linkedin.com/in/guilherme-da-rosa-silva-528a31267/" target="_blank"><span
+                                style="color: rgb(0, 135, 219);">LinkedIn</span></a></p>
+                    <button id="fecharPortfolio">Encerrar Créditos</button>
+
+                </div>
+            </div>
+        </main>
+
+        <aside id="principal">
+            <div class="principal-container">
+                <h1 class="principal-titulo">Imersão <span class="azul-estilizacao">IA</span> Google + <span
+                        class="roxo-estilizacao">Alura</span></h1>
+                <h2 class="principal-subtitulo">O que é a Imersão Inteligência Artificial?</h2>
+                <p class="principal-texto">A Imersão Inteligência Artificial é um curso gratuito oferecido pela Alura em
+                    parceria com o Google. O objetivo do curso é proporcionar conhecimentos e experiências práticas na
+                    área de IA.</p>
+            </div>
+        </aside>
+
+    </container>
+
+    <audio id="audioclick" src="sound/click-sci-fi.mp3"></audio>
+    <audio id="audiohover" src="sound/hover-sci-fi.mp3"></audio>
+    <audio id="audiomenu" src="sound/sci-fi-menumusic.mp3" autoplay loop></audio>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
